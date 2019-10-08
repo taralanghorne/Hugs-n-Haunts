@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Health
+  - Collectible
+  - Enemy
+  - SpiritOrb
   layers:
   - Default
   - TransparentFX
