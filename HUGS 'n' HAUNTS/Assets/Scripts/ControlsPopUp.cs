@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class ControlsPopUp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //pause menu variable
+    public GameObject pauseMenu;
+    public GameObject controlsMenu;
 
-    // Update is called once per frame
-    void Update()
+    //On click
+    public void ControlsMenuOpen()
     {
-        
+        //game is already paused
+
+        pauseMenu.SetActive(false); //bring up pause menu
+        controlsMenu.SetActive(true); //bring up pause menu
     }
 }
