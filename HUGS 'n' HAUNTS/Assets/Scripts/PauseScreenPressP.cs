@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseScreenPressP : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject controlsMenu;
     public Patrol[] werewolves;
 
     // Start is called before the first frame update
@@ -22,7 +23,7 @@ public class PauseScreenPressP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P) && !pauseMenu.activeInHierarchy)
+        if (Input.GetKeyDown(KeyCode.P) && !pauseMenu.activeInHierarchy && !controlsMenu.activeInHierarchy)
         {
             PauseGame();
 

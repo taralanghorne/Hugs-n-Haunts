@@ -15,7 +15,9 @@ public class ControlsToPause : MonoBehaviour
         //pause the game code here:
 
         //open pause menu
+        Debug.Log("switching");
         controlsMenu.SetActive(false); //bring up pause menu
         pauseMenu.SetActive(true); //turn off pause button so can't click again while in pause window
+        Debug.Log("switching");
     }
 }
