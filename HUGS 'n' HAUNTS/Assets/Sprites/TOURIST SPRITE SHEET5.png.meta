@@ -178,7 +178,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
+        width: 167
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,7 +187,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd2bca31c4875640a7273eb5fd8f4fe
+      spriteID: 60a97b3142741fc43b3f8655b20260dd
       internalID: 7360440207311014468
       vertices: []
       indices: 
@@ -197,9 +197,9 @@ TextureImporter:
       name: TOURIST SPRITE SHEET5_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 0
-        width: 160
+        width: 142
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,7 +208,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3ba9affd075df4ea1a3e27d7810c1d
+      spriteID: c12337970bf119a4d8863f4873136adb
       internalID: -7749053981311949648
       vertices: []
       indices: 
@@ -218,9 +218,9 @@ TextureImporter:
       name: TOURIST SPRITE SHEET5_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 315
         y: 0
-        width: 160
+        width: 175
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -229,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1870f01d2361dc94aa4c5a4160ac2cf3
+      spriteID: e8dfb925b2d4a844fb3f5d1c4fae0865
       internalID: -4170705093060343712
       vertices: []
       indices: 
@@ -239,9 +239,9 @@ TextureImporter:
       name: TOURIST SPRITE SHEET5_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 493
         y: 0
-        width: 160
+        width: 124
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -250,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6332f24675a2d429ab0a18e025b6f3
+      spriteID: 458a108837a40fb47bb6cd48b39a5f9e
       internalID: -2349878046841461227
       vertices: []
       indices: 
@@ -260,9 +260,9 @@ TextureImporter:
       name: TOURIST SPRITE SHEET5_4
       rect:
         serializedVersion: 2
-        x: 640
+        x: 625
         y: 0
-        width: 160
+        width: 168
         height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17a6f2f36e81d664d91e6a8e8de28bfb
+      spriteID: ddbb00228b1178a44b74366759fcf5d2
       internalID: -7675940265732128744
       vertices: []
       indices: 

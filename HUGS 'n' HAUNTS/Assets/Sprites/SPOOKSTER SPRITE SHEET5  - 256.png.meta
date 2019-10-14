@@ -175,11 +175,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 155
+        width: 144
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 11, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -194,12 +194,12 @@ TextureImporter:
       name: SPOOKSTER SPRITE SHEET5  - 256_1
       rect:
         serializedVersion: 2
-        x: 155
+        x: 146
         y: 0
-        width: 155
+        width: 154
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: SPOOKSTER SPRITE SHEET5  - 256_2
       rect:
         serializedVersion: 2
-        x: 310
+        x: 300
         y: 0
-        width: 155
+        width: 164
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: SPOOKSTER SPRITE SHEET5  - 256_3
       rect:
         serializedVersion: 2
-        x: 465
+        x: 474
         y: 0
-        width: 155
+        width: 146
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
