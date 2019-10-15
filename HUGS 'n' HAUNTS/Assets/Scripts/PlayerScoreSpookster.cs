@@ -12,8 +12,10 @@ public class PlayerScoreSpookster : MonoBehaviour
     public GameObject playerScoreUI;
     //public GameObject loseUI;
 
-    //public AudioClip heart; //for health pickups
-    //public AudioClip pumpkins;//for collectible pumpkins
+    public AudioClip heart; //for health pickups
+    public AudioClip pumpkins;//for collectible pumpkins
+    public AudioClip orb;//for collectible pumpkins
+    public AudioClip life;//for collectible pumpkins
 
     //public GameObject loseText;
     //public static bool lose = false;
@@ -50,26 +52,26 @@ public class PlayerScoreSpookster : MonoBehaviour
         if (trig.gameObject.tag == "Health")//heart pumpkins
         {
             playerscore += 30;
-            //AudioSource.PlayClipAtPoint(heart, transform.position);
+            AudioSource.PlayClipAtPoint(heart, transform.position);
             Destroy(trig.gameObject);
         }
         if (trig.gameObject.tag == "Collectible") //pumpkins
         {
             playerscore += 20;
-            //AudioSource.PlayClipAtPoint(pumpkins, transform.position);
+            AudioSource.PlayClipAtPoint(pumpkins, transform.position);
             Destroy(trig.gameObject);
         }
 
         if (trig.gameObject.tag == "SpiritOrb") //orbs
         {
             playerscore += 50;
-            //AudioSource.PlayClipAtPoint(pumpkins, transform.position);
+            AudioSource.PlayClipAtPoint(orb, transform.position);
             Destroy(trig.gameObject);
         }
         if (trig.gameObject.tag == "Life") //extra lives
         {
             playerscore += 100;
-            //AudioSource.PlayClipAtPoint(pumpkins, transform.position);
+            AudioSource.PlayClipAtPoint(life, transform.position);
             Destroy(trig.gameObject);
         }
     }

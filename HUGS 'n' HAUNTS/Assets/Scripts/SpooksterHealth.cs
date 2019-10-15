@@ -44,7 +44,7 @@ public class SpooksterHealth : MonoBehaviour
 
 
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Death"))
         {
@@ -70,7 +70,7 @@ public class SpooksterHealth : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Enemy"))
         {
@@ -140,7 +140,7 @@ public class SpooksterHealth : MonoBehaviour
         health3.SetActive(true);
         health2.SetActive(true);
         health1.SetActive(true);
-        gameObject.GetComponent<Rigidbody>().velocity = Vector2.zero;
+        gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         //gameObject.transform.position = respawn.transform.position;
         gameObject.transform.position = lastCheck;
         //AddPoints(deathPenalty);
