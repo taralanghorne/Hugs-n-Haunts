@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6696977953352132151}
   - component: {fileID: 6696977953352132150}
+  - component: {fileID: 3128750606016278104}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Respawn
@@ -82,6 +83,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3128750606016278104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6696977953352132144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2331b6e09b7284c59bd1bdcbf4cad5b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoint: {fileID: 6696977953352132144}
+  activeMat: {fileID: 2100000, guid: ffa8afffcbe301745bde7c68986a9570, type: 2}
+  activate: {fileID: 8300000, guid: b0c0c03e88a4c4b1d8ff7b6d4488ff76, type: 3}
 --- !u!1 &7199627670684570641
 GameObject:
   m_ObjectHideFlags: 0
