@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Camera_Spookster : MonoBehaviour
 {
-    private GameObject player;
+    public GameObject player;
     public float xMin;
     public float xMax;
     public float yMin;
@@ -13,7 +13,7 @@ public class Camera_Spookster : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        //player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
