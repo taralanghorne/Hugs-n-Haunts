@@ -15,9 +15,8 @@ public class SpooksterMove : MonoBehaviour
     [Tooltip("Everything you jump on should be put in a ground layer. Without this, your player probably* is able to jump infinitely")]
     public LayerMask GroundLayer;
 
-
-
-
+    public static bool isRight;
+    public static bool isLeft;
 
     // Update is called once per frame
     void Update()
@@ -52,10 +51,16 @@ public class SpooksterMove : MonoBehaviour
         if (moveX < 0.0f)
         {
             GetComponent<SpriteRenderer>().flipX = true;
+            Debug.Log("flipping");
+            isRight = false;
+            isLeft = true;
         }
         else if (moveX > 0.0f)
         {
             GetComponent<SpriteRenderer>().flipX = false;
+            Debug.Log("flipping false");
+            isRight = true;
+            isLeft = false;
         }
 
         //PHYSICS

@@ -1279,6 +1279,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233207046}
   m_CullTransparentMesh: 0
+--- !u!1 &238041184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5436898659867817324, guid: 12d661dd478244e16ba78055cf46285c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3343282399215977323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &248205064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6696977953352132144, guid: 609f5fe1068294c78819e1d55b39dc7a,
@@ -9378,23 +9384,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spookster
       objectReference: {fileID: 0}
-    - target: {fileID: 3343282399173811983, guid: 12d661dd478244e16ba78055cf46285c,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075785069, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075785068, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
-      propertyPath: playerSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2075785068, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
-      propertyPath: playerJumpPower
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 2075785070, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
       propertyPath: orb3
       value: 
@@ -9451,8 +9440,59 @@ PrefabInstance:
       propertyPath: health1
       value: 
       objectReference: {fileID: 1757155655}
+    - target: {fileID: 923555262453736920, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.1682713
+      objectReference: {fileID: 0}
+    - target: {fileID: 923555262453736920, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234123513215842772, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620899718425562010, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: AttackRight
+      value: 
+      objectReference: {fileID: 3343282399215977324}
+    - target: {fileID: 620899718425562010, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: AttackLeft
+      value: 
+      objectReference: {fileID: 238041184}
+    - target: {fileID: 620899718425562010, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: punch
+      value: 
+      objectReference: {fileID: 8300000, guid: 51e9453b119944f9e99f3b0abd4388a1, type: 3}
+    - target: {fileID: 5436898659867817324, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316607049089660779, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.0015204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316607049089660779, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
+--- !u!1 &3343282399215977324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8234123513215842772, guid: 12d661dd478244e16ba78055cf46285c,
+    type: 3}
+  m_PrefabInstance: {fileID: 3343282399215977323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &3386419315973562737
 BoxCollider2D:
   m_ObjectHideFlags: 0
