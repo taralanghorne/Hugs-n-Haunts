@@ -48,7 +48,7 @@ public class PlayerScoreSpookster : MonoBehaviour
         /*if (trig.gameObject.name == "End_Level")
         {
             CountScore();
-        }*/
+        }
         if (trig.gameObject.tag == "Health")//heart pumpkins
         {
             playerscore += 30;
@@ -73,7 +73,7 @@ public class PlayerScoreSpookster : MonoBehaviour
             playerscore += 100;
             AudioSource.PlayClipAtPoint(life, transform.position);
             Destroy(trig.gameObject);
-        }
+        }*/
     }
 
    /* void CountScore()

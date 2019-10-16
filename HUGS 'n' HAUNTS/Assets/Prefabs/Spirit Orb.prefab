@@ -119,6 +119,8 @@ GameObject:
   - component: {fileID: 2082586064}
   - component: {fileID: 5228554534825966749}
   - component: {fileID: 75688454}
+  - component: {fileID: 1847549747736680759}
+  - component: {fileID: 703091089408283725}
   m_Layer: 0
   m_Name: Spirit Orb
   m_TagString: SpiritOrb
@@ -237,3 +239,32 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.05
   frequency: 0.5
+--- !u!114 &1847549747736680759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909694859629778666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57ecda52f5c84527ab29d3b06b4113f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 50
+  sound: {fileID: 8300000, guid: 49796dcde3b2a487eb4e867326699e7a, type: 3}
+  collectible: {fileID: 6909694859629778666}
+--- !u!114 &703091089408283725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909694859629778666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d51e7482d184e5bbabe5234ebc7776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orb: {fileID: 6909694859629778666}
+  player: {fileID: 0}

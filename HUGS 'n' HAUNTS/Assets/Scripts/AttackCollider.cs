@@ -7,7 +7,7 @@ public class AttackCollider : MonoBehaviour
     public AudioClip enemydeath; //for health pickups
     public GameObject collectible;
     GameObject pumpkin;
-    public Transform clonePosition;
+    //public Transform clonePosition;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,7 @@ public class AttackCollider : MonoBehaviour
             //clonePosition = trig.transform.position;
             //Instantiate(collectible, trig.transform.position, trig.transform.gameObject.transform.rotation);
             pumpkin = (GameObject) Instantiate(collectible, trig.transform.position, trig.transform.rotation);
-            pumpkin.transform.localScale = new Vector3(0.2336f, 0.2336f, 0.73f);
+            pumpkin.transform.localScale = new Vector3(0.138f, 0.138f, 0.27f);
             //Instantiate(smoke, hit.transform.gameObject.transform.position, hit.transform.gameObject.transform.rotation);
             Destroy(trig.transform.gameObject);
             //make it length of animation or audio

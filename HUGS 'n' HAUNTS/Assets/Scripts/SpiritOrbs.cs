@@ -25,16 +25,16 @@ public class SpiritOrbs : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("SpiritOrb"))
+        /*if (collision.CompareTag("SpiritOrb"))
         {
             AddOrb();
             Destroy(collision.gameObject);
-        }
+        }*/
 
 
     }
 
-    private void AddOrb()
+    public void AddOrb()
     {
         if (!orb1.activeInHierarchy)
         {

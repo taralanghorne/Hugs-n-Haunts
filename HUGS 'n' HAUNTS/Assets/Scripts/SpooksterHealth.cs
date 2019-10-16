@@ -19,6 +19,9 @@ public class SpooksterHealth : MonoBehaviour
     [Tooltip("The amount of points a player loses on death.")]
     public int deathPenalty = 20;*/
 
+    public GameObject player;
+    public static bool lose = false;
+
     //public Text scoreText;
     // Feel free to add more! You'll need to edit the script in a few spots, though.
     public GameObject health5;
@@ -26,6 +29,9 @@ public class SpooksterHealth : MonoBehaviour
     public GameObject health3;
     public GameObject health2;
     public GameObject health1;
+
+    public Text livesText;
+    public static int lives = 5;
 
     public AudioClip hurt;
     public AudioClip respawning;
@@ -40,7 +46,12 @@ public class SpooksterHealth : MonoBehaviour
 
     }
 
-
+    void Update()
+    {
+        
+        livesText.gameObject.GetComponent<Text>().text = (""+lives);
+      
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -56,15 +67,15 @@ public class SpooksterHealth : MonoBehaviour
             AddPoints(coinValue);
             Destroy(collision.gameObject);
         }*/
-        else if (collision.CompareTag("Finish"))
+        /*else if (collision.CompareTag("Finish"))
         {
             Time.timeScale = 0;
-        }
-        else if (collision.CompareTag("Health"))
+        }*/
+        /*else if (collision.CompareTag("Health"))
         {
             AddHealth();
             Destroy(collision.gameObject);
-        }
+        }*/
 
 
     }
@@ -103,14 +114,27 @@ public class SpooksterHealth : MonoBehaviour
         else
         {
             health1.SetActive(false);
-            Respawn();
+            if (lives != 1)
+            {
+                Debug.Log("respawning");
+                lives -= 1;
+                Respawn();
+            }else if (lives == 1)
+            {
+                lives -= 1;
+                Debug.Log("losing");
+                //animate death?
+                lose = true;
+                player.SetActive(false);
+            }
+            
         }
 
 
         //assuming that health 3, health 2, health 1 are like their hearts or something
     }
 
-    private void AddHealth()
+    public void AddHealth()
     {
         if (!health2.activeInHierarchy)
         {
