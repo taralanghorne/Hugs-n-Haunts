@@ -27,10 +27,8 @@ public class SpooksterHealth : MonoBehaviour
     public GameObject health2;
     public GameObject health1;
 
-    //public AudioClip hurt;
-
-
-
+    public AudioClip hurt;
+    public AudioClip respawning;
 
 
     // Use this for initialization
@@ -50,6 +48,7 @@ public class SpooksterHealth : MonoBehaviour
         {
             //AudioSource.PlayClipAtPoint(hurt, transform.position);
             Debug.Log("Hey man you're dead");
+            AudioSource.PlayClipAtPoint(respawning, transform.position);
             Respawn();
         }
         /*else if (collision.CompareTag("Coin"))
@@ -74,7 +73,7 @@ public class SpooksterHealth : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
-            //AudioSource.PlayClipAtPoint(hurt, transform.position);
+            AudioSource.PlayClipAtPoint(hurt, transform.position);
             TakeDamage();
         }
     }
