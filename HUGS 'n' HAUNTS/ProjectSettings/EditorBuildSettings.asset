@@ -6,27 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/1-START SCREEN.unity
+    path: Assets/Scenes/0-START SCREEN.unity
     guid: edf6fef5ca77f9d4e8e6d9bf4bf0d147
   - enabled: 1
-    path: Assets/Scenes/9-CUTSCENE1.unity
+    path: Assets/Scenes/1-CUTSCENE1.unity
     guid: 59a6ef4ceb2764b2697dd0cf26950d11
   - enabled: 1
-    path: Assets/Scenes/4-SCENE ONE.unity
+    path: Assets/Scenes/2-SCENE ONE.unity
     guid: 423c0c3c19b64dd4b82dd914c3aab822
   - enabled: 1
-    path: Assets/Scenes/5-SCENE TWO.unity
+    path: Assets/Scenes/3-SCENE TWO.unity
     guid: 540a31613e6b7294dbb9d1e89568a7d2
   - enabled: 1
-    path: Assets/Scenes/6-LOSE SCREEN.unity
+    path: Assets/Scenes/4-LOSE SCREEN.unity
     guid: 9923d73d140283b4dafcf277906a6928
   - enabled: 1
-    path: Assets/Scenes/10-CUTSCENE2.unity
+    path: Assets/Scenes/5-CUTSCENE2.unity
     guid: 90f183d3ccac44d1c8e34cca35f27f6c
   - enabled: 1
-    path: Assets/Scenes/7-WIN SCREEN.unity
+    path: Assets/Scenes/6-WIN SCREEN.unity
     guid: fa1deb22943245b41b2a7831f25a334e
   - enabled: 1
-    path: Assets/Scenes/8-CREDITS SCREEN.unity
+    path: Assets/Scenes/7-CREDITS SCREEN.unity
     guid: 22fbc5c2e4c6bce4ca4d9265d412de7b
   m_configObjects: {}

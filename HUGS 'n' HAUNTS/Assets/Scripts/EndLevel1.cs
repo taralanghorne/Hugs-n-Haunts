@@ -21,7 +21,7 @@ public class EndLevel1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        mainCamera.gameObject.transform.position = new Vector3(tourist.transform.position.x, tourist.transform.position.y, tourist.transform.position.z);
+        mainCamera.gameObject.transform.position = new Vector3(tourist.transform.position.x, tourist.transform.position.y);
         Debug.Log("End Level");
         AudioSource.PlayClipAtPoint(scream, transform.position);
         //tourist.GetComponent<SpriteRenderer>().flipX = false;
