@@ -11,36 +11,49 @@ public class EndLevel1 : MonoBehaviour
     public Transform runPosition;
     private Vector3 door;
     public float speed = 0.3f;
+    private float step;
     public GameObject touristDialogue;
+    private bool animating = false;
 
     void Start()
     {
-        door = new Vector3(runPosition.position.x, 0, 0);
+        door = new Vector3(runPosition.position.x, runPosition.position.y, 0);
         //tourist.GetComponent<SpriteRenderer>().flipX = true;
+    }
+
+    private void Update()
+    {
+        if (animating)
+        {
+            //step = speed * Time.deltaTime;
+            tourist.transform.position = Vector3.MoveTowards(tourist.transform.position, door, speed);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        mainCamera.gameObject.transform.position = new Vector3(tourist.transform.position.x, tourist.transform.position.y);
+        //mainCamera.gameObject.transform.position = new Vector2(tourist.transform.position.x, tourist.transform.position.y);
         Debug.Log("End Level");
         AudioSource.PlayClipAtPoint(scream, transform.position);
         //tourist.GetComponent<SpriteRenderer>().flipX = false;
         //animate tourist here
         touristDialogue.SetActive(true);
         StartCoroutine(TouristAnimation());
-        StartCoroutine(EndLevel());
-        tourist.transform.position = Vector3.MoveTowards(tourist.transform.position, door, speed);
+        //animate tourist run
     }
 
     IEnumerator TouristAnimation()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         Debug.Log("Animating");
+        StartCoroutine(EndLevel());
+        animating = true;
+        Debug.Log(speed);
     }
 
     IEnumerator EndLevel()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         Debug.Log("new scene");
         SceneManager.LoadScene(3);
     }

@@ -6,7 +6,6 @@ public class DoorThru : MonoBehaviour
 {
     public GameObject wall;
     public GameObject orbText;
-    //public GameObject tourist;
     //public Transform mainCamera;
     public AudioClip door;
 

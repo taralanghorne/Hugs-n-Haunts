@@ -12,6 +12,8 @@ public class SpiritOrbs : MonoBehaviour
     public AudioClip dialogue;
     public GameObject wall;
     public GameObject door;
+    public GameObject doorText;
+    public GameObject doorTextTrigger;
 
     // Use this for initialization
     void Start()
@@ -52,7 +54,8 @@ public class SpiritOrbs : MonoBehaviour
 
     public void GotOrbs()
     {
-        gotOrbsText.SetActive(true);
+        doorText.SetActive(false);
+        doorTextTrigger.SetActive(false); gotOrbsText.SetActive(true);
         AudioSource.PlayClipAtPoint(dialogue, transform.position);
         wall.GetComponent<BoxCollider2D>().enabled = false;
         door.GetComponent<BoxCollider2D>().enabled = true;
