@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - SpiritOrb
   - Extra Life
+  - Trigger
   layers:
   - Default
   - TransparentFX

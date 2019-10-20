@@ -2961,11 +2961,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943949160862}
     m_Modifications:
-    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
-        type: 3}
-      propertyPath: m_Name
-      value: Spirit Orb
-      objectReference: {fileID: 0}
     - target: {fileID: 6909694859629778664, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3020,6 +3015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
+        type: 3}
+      propertyPath: m_Name
+      value: Spirit Orb
       objectReference: {fileID: 0}
     - target: {fileID: 703091089408283725, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
@@ -4744,11 +4744,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943949160862}
     m_Modifications:
-    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
-        type: 3}
-      propertyPath: m_Name
-      value: Spirit Orb (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 6909694859629778664, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4803,6 +4798,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
+        type: 3}
+      propertyPath: m_Name
+      value: Spirit Orb (1)
       objectReference: {fileID: 0}
     - target: {fileID: 703091089408283725, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
@@ -6162,11 +6162,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943949160862}
     m_Modifications:
-    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
-        type: 3}
-      propertyPath: m_Name
-      value: Spirit Orb (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 6909694859629778664, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6221,6 +6216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909694859629778666, guid: fcbc5fc7cce994626ad87226faf83714,
+        type: 3}
+      propertyPath: m_Name
+      value: Spirit Orb (2)
       objectReference: {fileID: 0}
     - target: {fileID: 703091089408283725, guid: fcbc5fc7cce994626ad87226faf83714,
         type: 3}
@@ -7035,6 +7035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxIntensity
       value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}

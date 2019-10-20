@@ -53,30 +53,14 @@ public class SpooksterHealth : MonoBehaviour
       
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Death"))
+        if (GetComponent<Collider2D>().CompareTag("Enemy"))
         {
-            //AudioSource.PlayClipAtPoint(hurt, transform.position);
-            Debug.Log("Hey man you're dead");
-            AudioSource.PlayClipAtPoint(respawning, transform.position);
-            Respawn();
+            AudioSource.PlayClipAtPoint(hurt, transform.position);
+            TakeDamage();
         }
-        /*else if (collision.CompareTag("Coin"))
-        {
-            AddPoints(coinValue);
-            Destroy(collision.gameObject);
-        }*/
-        /*else if (collision.CompareTag("Finish"))
-        {
-            Time.timeScale = 0;
-        }*/
-        /*else if (collision.CompareTag("Health"))
-        {
-            AddHealth();
-            Destroy(collision.gameObject);
-        }*/
-    }
+    }*/
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
