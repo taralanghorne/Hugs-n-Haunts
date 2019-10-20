@@ -1937,11 +1937,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spookster Idling
       objectReference: {fileID: 0}
-    - target: {fileID: 3343282399173811977, guid: 12d661dd478244e16ba78055cf46285c,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 171690022, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
       propertyPath: m_Intensity
       value: 1.5
@@ -1957,11 +1952,6 @@ PrefabInstance:
     - target: {fileID: 171690021, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
       propertyPath: maxIntensity
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343282399173811976, guid: 12d661dd478244e16ba78055cf46285c,
-        type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2075785069, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
       propertyPath: m_Constraints
