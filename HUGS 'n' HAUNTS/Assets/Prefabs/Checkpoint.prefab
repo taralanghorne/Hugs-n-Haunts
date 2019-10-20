@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6696977953352132151}
   - component: {fileID: 6696977953352132150}
   - component: {fileID: 3128750606016278104}
+  - component: {fileID: 85675641}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Respawn
@@ -95,8 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331b6e09b7284c59bd1bdcbf4cad5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpoint: {fileID: 6696977953352132144}
-  activeMat: {fileID: 2100000, guid: ffa8afffcbe301745bde7c68986a9570, type: 2}
+  light: {fileID: 7199627670684570641}
   activate: {fileID: 8300000, guid: b0c0c03e88a4c4b1d8ff7b6d4488ff76, type: 3}
 --- !u!1 &7199627670684570641
 GameObject:
@@ -141,7 +141,7 @@ Light:
   serializedVersion: 9
   m_Type: 2
   m_Color: {r: 0.3529412, g: 0.99607843, b: 0.9587146, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 1.8
   m_Range: 1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -203,4 +203,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minIntensity: 0.8
-  maxIntensity: 1.5
+  maxIntensity: 1.8

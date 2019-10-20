@@ -146,7 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7070816712436848020}
   m_Layer: 0
-  m_Name: Werewolf_Patrol 1
+  m_Name: Werewolf_Patrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7070816712910451291}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.7806005, y: -5.44, z: 2.78}
   m_LocalScale: {x: 1.7239662, y: 1.7239662, z: 1.7239662}
   m_Children:
@@ -223,7 +223,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7070816713107470633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6970002, y: -0.0750007, z: -0.024400903}
+  m_LocalPosition: {x: -0.77, y: -0.0750007, z: -0.024400903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7070816712436848020}
