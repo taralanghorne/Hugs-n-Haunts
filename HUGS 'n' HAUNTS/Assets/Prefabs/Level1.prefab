@@ -3213,11 +3213,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: Opening Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3272,6 +3267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Opening Dialogue Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
@@ -4979,11 +4979,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5049,6 +5044,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 2.952677
       objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy Dialogue Trigger
+      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: dialogue
@@ -5074,11 +5074,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: Door Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5143,6 +5138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0922886
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Door Dialogue Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
@@ -5330,11 +5330,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: Collectible Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5394,6 +5389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 1.4318504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Collectible Dialogue Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
@@ -5677,11 +5677,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3128750606016278104, guid: 609f5fe1068294c78819e1d55b39dc7a,
         type: 3}
       propertyPath: light
@@ -5696,6 +5691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxIntensity
       value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
@@ -6061,11 +6061,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: HP Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6130,6 +6125,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2.952677
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: HP Dialogue Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
@@ -6428,11 +6428,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5125710943550450853}
     m_Modifications:
-    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
-        type: 3}
-      propertyPath: m_Name
-      value: Orb Dialogue Trigger
-      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548723, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6497,6 +6492,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 2.952677
+      objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Orb Dialogue Trigger
       objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
@@ -7278,11 +7278,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3128750606016278104, guid: 609f5fe1068294c78819e1d55b39dc7a,
         type: 3}
       propertyPath: light
@@ -7297,6 +7292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxIntensity
       value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}

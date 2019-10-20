@@ -356,9 +356,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.2
-  m_Text: "My friend ran away! \nI'll need to collect Spirit Orbs phase through stuff
-    to reach him! My Poltergeist powers are always running low...\nMove me with the
-    Arrow keys!"
+  m_Text: "My friend ran off into the wing of the mansion with these old, faulty
+    fans! They could blow me right apart! I\u2019d better avoid them and find my
+    friend!"
 --- !u!222 &91122626
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1810,81 +1810,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 826078130}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &867158171
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 867158172}
-  - component: {fileID: 867158174}
-  - component: {fileID: 867158173}
-  m_Layer: 5
-  m_Name: Poltergeist Power Bar Spirit Orb (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &867158172
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867158171}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 87.68209}
-  m_LocalScale: {x: 0.0011139114, y: 0.0011139114, z: 0.0011139114}
-  m_Children: []
-  m_Father: {fileID: 1989828842}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.792, y: -2.121}
-  m_SizeDelta: {x: 700, y: 250}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &867158173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867158171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 096272135e162459f99ae7febff918e7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &867158174
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867158171}
-  m_CullTransparentMesh: 0
 --- !u!4 &970525727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5644156221437114073, guid: 441b3f564eceb49f4b8a334d6238645c,
@@ -4568,7 +4493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1989828842}
   m_Layer: 5
-  m_Name: Opening Dialogue
+  m_Name: Opening Dialogue Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4587,7 +4512,6 @@ Transform:
   m_Children:
   - {fileID: 1651212712}
   - {fileID: 91122624}
-  - {fileID: 867158172}
   m_Father: {fileID: 204854252}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5362,6 +5286,12 @@ PrefabInstance:
       propertyPath: orbText
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4749187448560114145, guid: 0975fa202a548485bb5a0dafb01e46ef,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 09fce293d083a4d909d330d34c9065b9,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0975fa202a548485bb5a0dafb01e46ef, type: 3}
 --- !u!4 &489394963672519829 stripped
@@ -10986,8 +10916,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5125710944075668248}
-  - {fileID: 111601440}
   - {fileID: 1480001714}
+  - {fileID: 111601440}
   - {fileID: 2098643264}
   - {fileID: 78287397}
   m_Father: {fileID: 5125710944182497868}
