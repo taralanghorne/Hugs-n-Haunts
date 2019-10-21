@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2331b6e09b7284c59bd1bdcbf4cad5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 7199627670684570641}
+  lightUp: {fileID: 7199627670684570641}
   activate: {fileID: 8300000, guid: b0c0c03e88a4c4b1d8ff7b6d4488ff76, type: 3}
 --- !u!61 &85675641
 BoxCollider2D:

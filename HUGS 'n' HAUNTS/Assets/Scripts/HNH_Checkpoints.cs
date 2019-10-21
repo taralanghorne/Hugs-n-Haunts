@@ -10,7 +10,7 @@ public class HNH_Checkpoints : MonoBehaviour
     private bool activated = false;
     //public GameObject checkpoint;
     //public Material activeMat;
-    public GameObject light;
+    public GameObject lightUp;
     public AudioClip activate;
 
     void Start()
@@ -27,7 +27,7 @@ public class HNH_Checkpoints : MonoBehaviour
                 Debug.Log("Activated");
                 AudioSource.PlayClipAtPoint(activate, transform.position);
                 //GetComponent<Renderer>().material = activeMat;
-                light.SetActive(true);
+                lightUp.SetActive(true);
                 //animate?
                 SpooksterHealth.lastCheck = transform.position;
                 activated = true;
