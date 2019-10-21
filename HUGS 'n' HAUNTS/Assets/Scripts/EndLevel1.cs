@@ -26,6 +26,7 @@ public class EndLevel1 : MonoBehaviour
         if (animating)
         {
             //step = speed * Time.deltaTime;
+            tourist.GetComponent<SpriteRenderer>().flipX = false;
             tourist.transform.position = Vector3.MoveTowards(tourist.transform.position, door, speed);
         }
     }
@@ -35,7 +36,6 @@ public class EndLevel1 : MonoBehaviour
         //mainCamera.gameObject.transform.position = new Vector2(tourist.transform.position.x, tourist.transform.position.y);
         Debug.Log("End Level");
         AudioSource.PlayClipAtPoint(scream, transform.position);
-        //tourist.GetComponent<SpriteRenderer>().flipX = false;
         //animate tourist here
         touristDialogue.SetActive(true);
         StartCoroutine(TouristAnimation());
@@ -44,7 +44,9 @@ public class EndLevel1 : MonoBehaviour
 
     IEnumerator TouristAnimation()
     {
-        yield return new WaitForSeconds(1);
+
+        tourist.GetComponent<Animator>().SetBool("IsScared", true);
+        yield return new WaitForSeconds(2);
         Debug.Log("Animating");
         StartCoroutine(EndLevel());
         animating = true;

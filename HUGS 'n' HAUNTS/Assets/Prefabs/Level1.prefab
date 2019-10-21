@@ -5144,6 +5144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door Dialogue Trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 6481252783691548720, guid: 465c6f533282d4ba59804472abb811b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6481252783691548722, guid: 465c6f533282d4ba59804472abb811b0,
         type: 3}
       propertyPath: dialogue
@@ -6034,6 +6039,11 @@ PrefabInstance:
       propertyPath: maxIntensity
       value: 1.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
 --- !u!4 &2004769260058651964 stripped
@@ -6683,6 +6693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: maxIntensity
       value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199627670684570641, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}

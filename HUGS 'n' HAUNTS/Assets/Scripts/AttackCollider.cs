@@ -25,6 +25,7 @@ public class AttackCollider : MonoBehaviour
     {
         if (trig.transform.gameObject.name == "Werewolf")
         {
+            Debug.Log("Enemy");
             AudioSource.PlayClipAtPoint(enemydeath, transform.position);
             //clonePosition = trig.transform.position;
             //Instantiate(collectible, trig.transform.position, trig.transform.gameObject.transform.rotation);
