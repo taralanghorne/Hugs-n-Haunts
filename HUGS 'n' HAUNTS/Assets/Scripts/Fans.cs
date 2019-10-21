@@ -5,7 +5,7 @@ using UnityEngine;
 public class Fans : MonoBehaviour
 {
     private bool fanOn = true;
-    private bool soundOn = true;
+    private bool soundOn = false;
     public int delay = 3;
     public GameObject fanObject;
     public GameObject FanTrigger;
@@ -24,49 +24,64 @@ public class Fans : MonoBehaviour
     {
         if (!fanOn)
         {
-            sound.Stop();
-            if(soundOn == true)
-            {
-                AudioSource.PlayClipAtPoint(fan, transform.position);
+            StopCoroutine(WaitForTurnOff());
+            //sound.Stop();
+            //if(soundOn == true)
+            //{
+            //    AudioSource.PlayClipAtPoint(fan, transform.position);
 
-            }
+            //}
             FanTrigger.SetActive(false);
             wind.SetActive(false);
             StartCoroutine(FanTurningOn());
         }
         else if (fanOn)
         {
-            if(soundOn == true)
+            if(soundOn == false)
             {
-                AudioSource.PlayClipAtPoint(fan, transform.position);
-
+                StopCoroutine(WaitForTurnOn());
+                Debug.Log("Playing Sound");
+                //sound.Play(); 
+                soundOn = true;
+                FanTrigger.SetActive(true);
+                wind.SetActive(true);
+                StartCoroutine(FanTurningOff());
             }
-            FanTrigger.SetActive(true);
-            wind.SetActive(true);
-            StartCoroutine(FanTurningOff());
         }
     }
 
     IEnumerator FanTurningOn()
     {
+        Debug.Log("FanTurningOn");
         yield return new WaitForSeconds(delay);
-        soundOn = true;
-        StartCoroutine(WaitForTurnOn());
+        fanOn = true;
+        soundOn = false;
+        //StartCoroutine(WaitForTurnOn());
     }
     IEnumerator WaitForTurnOn()
     {
+        StopCoroutine(FanTurningOn());
+        Debug.Log("WaitForTurnOn");
         yield return new WaitForSeconds(1.3f);
         fanOn = true;
+        soundOn = false;
     }
 
     IEnumerator FanTurningOff()
     {
+        Debug.Log("FanTurningOff");
+        soundOn = true;
         yield return new WaitForSeconds(delay);
-        StartCoroutine(WaitForTurnOff());
-        soundOn = false;
+        //sound.Stop();
+        //FanTrigger.SetActive(false);
+        //wind.SetActive(false);
+        fanOn = false;
+        //StartCoroutine(WaitForTurnOff());
     }
     IEnumerator WaitForTurnOff()
     {
+        StopCoroutine(FanTurningOff());
+        Debug.Log("WaitForTurnOff");
         yield return new WaitForSeconds(1.3f);
         fanOn = false;
     }

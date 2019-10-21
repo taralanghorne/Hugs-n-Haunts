@@ -23,7 +23,7 @@ public class AttackCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D trig)
     {
-        if (trig.transform.gameObject.tag == "Enemy")
+        if (trig.transform.gameObject.name == "Werewolf")
         {
             AudioSource.PlayClipAtPoint(enemydeath, transform.position);
             //clonePosition = trig.transform.position;

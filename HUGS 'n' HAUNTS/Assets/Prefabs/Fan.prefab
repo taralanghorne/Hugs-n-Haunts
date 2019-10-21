@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2122944442}
   - component: {fileID: 2122944444}
   - component: {fileID: 2122944443}
+  - component: {fileID: 2078020651}
   m_Layer: 0
   m_Name: Wind
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122944441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.10866448, y: 5.2826333, z: -1.9571599}
-  m_LocalScale: {x: 3.9410417, y: 3.5765383, z: 0}
+  m_LocalPosition: {x: 0.02, y: 3.9626346, z: -1.9571599}
+  m_LocalScale: {x: 2.3341434, y: 3.5765383, z: 0}
   m_Children: []
   m_Father: {fileID: 4733707922590130832}
   m_RootOrder: 1
@@ -94,8 +95,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1499843127
-  m_SortingLayer: 4
+  m_SortingLayerID: 943279827
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 05a9c4e383efc4c3bab49a9865e41cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,6 +109,102 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!82 &2078020651
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122944441}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8e8ae6b9ab4894eeca384e039dfca0ed, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 3
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.2
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.25
+      outSlope: -1.25
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.0030956268
+      value: 0.5253105
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2952104550693806132
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,8 +230,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2952104550693806132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 5.07, z: -1.9571599}
-  m_LocalScale: {x: 3.6882784, y: 6.9856663, z: 0}
+  m_LocalPosition: {x: -0.04214, y: 3.75, z: -1.9571599}
+  m_LocalScale: {x: 2.1844401, y: 6.9856663, z: 0}
   m_Children: []
   m_Father: {fileID: 4733707922590130832}
   m_RootOrder: 0
@@ -178,7 +275,7 @@ GameObject:
   - component: {fileID: 671506406}
   - component: {fileID: 671506409}
   - component: {fileID: 671506407}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Fan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 4733707922590130834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.85, y: 1.64, z: 1.9571599}
-  m_LocalScale: {x: 0.37971824, y: 0.14714082, z: 1}
+  m_LocalScale: {x: 0.37971824, y: 0.1802475, z: 1}
   m_Children:
   - {fileID: 5486538905404535459}
   - {fileID: 2122944442}
@@ -284,12 +381,12 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4733707922590130834}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0a0087494103b48d0b89388b9c6addea, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.022
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -389,4 +486,4 @@ MonoBehaviour:
   fanObject: {fileID: 4733707922590130834}
   FanTrigger: {fileID: 2952104550693806132}
   wind: {fileID: 2122944441}
-  fan: {fileID: 8300000, guid: 07e285c858d1a4b6ca371f4ce5d90110, type: 3}
+  fan: {fileID: 8300000, guid: 8e8ae6b9ab4894eeca384e039dfca0ed, type: 3}
