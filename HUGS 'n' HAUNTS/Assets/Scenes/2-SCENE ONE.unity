@@ -2917,7 +2917,7 @@ PrefabInstance:
     - target: {fileID: 5245838847014905655, guid: 56907f66665354e71bdbbedac2c12f71,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.06
+      value: 6.954
       objectReference: {fileID: 0}
     - target: {fileID: 5245838847014905655, guid: 56907f66665354e71bdbbedac2c12f71,
         type: 3}
@@ -7876,6 +7876,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 129989673654262508, guid: 3df0d29319b984a6780f53b35e4a9194,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 129989673547196273, guid: 3df0d29319b984a6780f53b35e4a9194,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 129989673253496401, guid: 3df0d29319b984a6780f53b35e4a9194,
+        type: 3}
+      propertyPath: m_Text
+      value: "My friend ran away! \nI'll need to collect Spirit Orbs\nso I can phase
+        through the door to reach him! My Poltergeist powers are always running low...\nMove
+        me with the Arrow keys!"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3df0d29319b984a6780f53b35e4a9194, type: 3}
 --- !u!114 &246669403231827043
@@ -8801,6 +8818,16 @@ PrefabInstance:
       propertyPath: livesText
       value: 
       objectReference: {fileID: 993871847}
+    - target: {fileID: 8234123513215842772, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436898659867817324, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
 --- !u!61 &3386419315973562737
