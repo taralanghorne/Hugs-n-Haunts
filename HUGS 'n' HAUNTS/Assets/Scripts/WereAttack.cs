@@ -33,7 +33,8 @@ public class WereAttack : MonoBehaviour
             {
                 werewolf.GetComponent<Animator>().SetBool("IsAttacking", true);
                 //werewolf.GetComponent<Patrol>().speed = 0;
-                AudioSource.PlayClipAtPoint(growl, transform.position);
+                werewolf.GetComponent<AudioSource>().Play();
+                //AudioSource.PlayClipAtPoint(growl, transform.position);
                 if (werewolf.GetComponent<Patrol>().isRight)
                 {
                     swipeTrigL.SetActive(true);
@@ -62,6 +63,7 @@ public class WereAttack : MonoBehaviour
         swipeTrigR.SetActive(false);
         IsAttacking = false;
         werewolf.GetComponent<Animator>().SetBool("IsAttacking", false);
+        werewolf.GetComponent<AudioSource>().Stop();
     }
 
     void Attack_Left_Cancel()
@@ -70,5 +72,6 @@ public class WereAttack : MonoBehaviour
         swipeTrigL.SetActive(false);
         IsAttacking = false;
         werewolf.GetComponent<Animator>().SetBool("IsAttacking", false);
+        werewolf.GetComponent<AudioSource>().Stop();
     }
 }

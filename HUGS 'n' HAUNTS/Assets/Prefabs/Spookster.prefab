@@ -268,8 +268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: 2
-  playerJumpPower: 300
-  distToGround: 1
+  playerJumpPower: 350
+  distToGround: 0.3
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
