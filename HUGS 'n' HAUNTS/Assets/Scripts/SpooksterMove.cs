@@ -19,6 +19,8 @@ public class SpooksterMove : MonoBehaviour
 
     public static bool isRight;
     public static bool isLeft;
+    public GameObject player;
+    public bool isJump = false;
 
     private void Start()
     {
@@ -41,6 +43,22 @@ public class SpooksterMove : MonoBehaviour
         {
             PlayerMove();
         }
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            player.GetComponent<Animator>().SetBool("IsJumping", true);
+            player.GetComponent<Animator>().SetBool("IsRunning", false);
+        }
+        else if (!isJump)
+        {
+            player.GetComponent<Animator>().SetBool("IsJumping", false);
+        }
+        if (!IsGrounded()) {
+            isJump = true;
+        }
+        else
+        {
+            isJump = false;
+        }
 
     }
 
@@ -54,13 +72,13 @@ public class SpooksterMove : MonoBehaviour
         }
 
         //ANIMATIONS
-        if (moveX != 0)
+        if (moveX != 0 && !isJump)
         {
-            GetComponent<Animator>().SetBool("IsRunning", true);
+            player.GetComponent<Animator>().SetBool("IsRunning", true);
         }
         else
         {
-            GetComponent<Animator>().SetBool("IsRunning", false);
+            player.GetComponent<Animator>().SetBool("IsRunning", false);
         }
 
         //PLAYER DIRECTION

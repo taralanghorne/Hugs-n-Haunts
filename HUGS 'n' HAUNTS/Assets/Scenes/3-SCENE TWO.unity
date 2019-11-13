@@ -12066,11 +12066,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
       propertyPath: m_Offset.x
-      value: -0.010987163
+      value: 0.937762
       objectReference: {fileID: 0}
     - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
       propertyPath: m_Size.x
-      value: 1.1584544
+      value: 3.0559525
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
@@ -15813,6 +15813,20 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3343282399173811983, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 3343282399173811983, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075785068, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 7586198479458952637}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d661dd478244e16ba78055cf46285c, type: 3}
 --- !u!1 &7586198479458952637 stripped
