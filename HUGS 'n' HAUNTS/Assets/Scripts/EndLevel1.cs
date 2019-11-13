@@ -15,6 +15,18 @@ public class EndLevel1 : MonoBehaviour
     public GameObject touristDialogue;
     private bool animating = false;
 
+    public GameObject pressT;
+    public AudioClip huh;
+    bool trigger = false;
+    bool soundOff = false;
+
+    public GameObject doorClosed;
+    public GameObject doorOpen;
+    public AudioClip doorCreak;
+    public GameObject endTrigger;
+    public GameObject endArrow;
+    public GameObject endDialogue;
+
     void Start()
     {
         door = new Vector3(runPosition.position.x, runPosition.position.y, 0);
@@ -29,17 +41,35 @@ public class EndLevel1 : MonoBehaviour
             tourist.GetComponent<SpriteRenderer>().flipX = false;
             tourist.transform.position = Vector3.MoveTowards(tourist.transform.position, door, speed);
         }
+
+        if (trigger && Input.GetKeyDown(KeyCode.T))
+        {
+            Destroy(pressT);
+            soundOff = true;
+            //mainCamera.gameObject.transform.position = new Vector2(tourist.transform.position.x, tourist.transform.position.y);
+            Debug.Log("End Level");
+            AudioSource.PlayClipAtPoint(scream, transform.position);
+            //animate tourist here
+            touristDialogue.SetActive(true);
+            StartCoroutine(TouristAnimation());
+            //animate tourist run
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //mainCamera.gameObject.transform.position = new Vector2(tourist.transform.position.x, tourist.transform.position.y);
-        Debug.Log("End Level");
-        AudioSource.PlayClipAtPoint(scream, transform.position);
-        //animate tourist here
-        touristDialogue.SetActive(true);
-        StartCoroutine(TouristAnimation());
-        //animate tourist run
+        pressT.SetActive(true);
+        trigger = true;
+        if (!soundOff)
+        {
+            AudioSource.PlayClipAtPoint(huh, transform.position);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        pressT.SetActive(false);
+        trigger = false;
     }
 
     IEnumerator TouristAnimation()
@@ -56,7 +86,15 @@ public class EndLevel1 : MonoBehaviour
     IEnumerator EndLevel()
     {
         yield return new WaitForSeconds(1);
-        Debug.Log("new scene");
-        SceneManager.LoadScene(3);
+        //Debug.Log("new scene");
+        //SceneManager.LoadScene(3);
+        AudioSource.PlayClipAtPoint(doorCreak, transform.position);
+        tourist.SetActive(false);
+        doorClosed.SetActive(false);
+        doorOpen.SetActive(true);
+        endArrow.SetActive(true);
+        endTrigger.SetActive(true);
+        AudioSource.PlayClipAtPoint(huh, transform.position);
+        endDialogue.SetActive(true);
     }
 }

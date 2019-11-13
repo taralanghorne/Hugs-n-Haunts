@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreAmount: 30
-  sound: {fileID: 8300000, guid: 6b804ac5bf3454924ab3e8a636415da7, type: 3}
+  sound: {fileID: 8300000, guid: 7df8e2ef3a3b1409289f277d66f8b010, type: 3}
   collectible: {fileID: 7782937435266358441}
 --- !u!114 &7782937436096728938
 MonoBehaviour:

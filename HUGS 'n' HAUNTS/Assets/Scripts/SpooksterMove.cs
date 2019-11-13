@@ -11,6 +11,7 @@ public class SpooksterMove : MonoBehaviour
     [Tooltip("Only change this if your character is having problems jumping when they shouldn't or not jumping at all.")]
     public float distToGround = 1.0f;
     private bool inControl = true;
+    public AudioClip jumping;
 
     [Tooltip("Everything you jump on should be put in a ground layer. Without this, your player probably* is able to jump infinitely")]
     public LayerMask GroundLayer;
@@ -71,7 +72,7 @@ public class SpooksterMove : MonoBehaviour
     {
         //JUMPING CODE
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
-
+        AudioSource.PlayClipAtPoint(jumping, transform.position);
     }
 
     public bool IsGrounded()

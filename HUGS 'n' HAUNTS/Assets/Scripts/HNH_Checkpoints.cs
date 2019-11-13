@@ -12,6 +12,7 @@ public class HNH_Checkpoints : MonoBehaviour
     //public Material activeMat;
     public GameObject lightUp;
     public AudioClip activate;
+    public GameObject checkpointDialogue;
 
     void Start()
     {
@@ -26,12 +27,21 @@ public class HNH_Checkpoints : MonoBehaviour
             {
                 Debug.Log("Activated");
                 AudioSource.PlayClipAtPoint(activate, transform.position);
+                checkpointDialogue.SetActive(true);
                 //GetComponent<Renderer>().material = activeMat;
                 lightUp.SetActive(true);
                 //animate?
                 SpooksterHealth.lastCheck = transform.position;
                 activated = true;
+                StartCoroutine(DialogueOff());
             }
         }
+    }
+
+    IEnumerator DialogueOff()
+    {
+        yield return new WaitForSeconds(3);
+        Debug.Log("dialogue off");
+        checkpointDialogue.SetActive(false);
     }
 }

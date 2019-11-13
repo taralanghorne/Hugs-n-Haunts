@@ -8,11 +8,13 @@ public class DoorThru : MonoBehaviour
     public GameObject orbText;
     //public Transform mainCamera;
     public AudioClip door;
+    public GameObject passThrough;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         wall.SetActive(false);
         orbText.SetActive(false);
+        passThrough.SetActive(false);
         AudioSource.PlayClipAtPoint(door, transform.position);
     }
 }
