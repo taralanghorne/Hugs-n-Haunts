@@ -32,6 +32,7 @@ public class Fans : MonoBehaviour
 
             //}
             FanTrigger.SetActive(false);
+            fanObject.GetComponent<Animator>().SetBool("IsOn", false);
             wind.SetActive(false);
             StartCoroutine(FanTurningOn());
         }
@@ -42,8 +43,9 @@ public class Fans : MonoBehaviour
                 StopCoroutine(WaitForTurnOn());
                 Debug.Log("Playing Sound");
                 //sound.Play(); 
-                soundOn = true;
+                //soundOn = true;
                 FanTrigger.SetActive(true);
+                fanObject.GetComponent<Animator>().SetBool("IsOn", true);
                 wind.SetActive(true);
                 StartCoroutine(FanTurningOff());
             }

@@ -275,6 +275,7 @@ GameObject:
   - component: {fileID: 671506406}
   - component: {fileID: 671506409}
   - component: {fileID: 671506407}
+  - component: {fileID: 3376305033033474822}
   m_Layer: 0
   m_Name: Fan
   m_TagString: Untagged
@@ -487,3 +488,22 @@ MonoBehaviour:
   FanTrigger: {fileID: 2952104550693806132}
   wind: {fileID: 2122944441}
   fan: {fileID: 8300000, guid: 8e8ae6b9ab4894eeca384e039dfca0ed, type: 3}
+--- !u!95 &3376305033033474822
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4733707922590130834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f7aa5f2be751c4d43b35bd2e87a75757, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

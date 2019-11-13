@@ -460,6 +460,7 @@ MonoBehaviour:
   door: {fileID: 0}
   doorText: {fileID: 0}
   doorTextTrigger: {fileID: 0}
+  passThrough: {fileID: 0}
 --- !u!114 &2075785073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,6 +514,7 @@ MonoBehaviour:
   AttackRight: {fileID: 8234123513215842772}
   AttackLeft: {fileID: 5436898659867817324}
   punch: {fileID: 8300000, guid: 51e9453b119944f9e99f3b0abd4388a1, type: 3}
+  player: {fileID: 3343282399173811977}
 --- !u!1 &5436898659867817324
 GameObject:
   m_ObjectHideFlags: 0

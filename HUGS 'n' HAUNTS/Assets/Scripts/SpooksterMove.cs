@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpooksterMove : MonoBehaviour
 {
@@ -18,6 +19,20 @@ public class SpooksterMove : MonoBehaviour
 
     public static bool isRight;
     public static bool isLeft;
+
+    private void Start()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "2-SCENE ONE")
+        {
+            isRight = true;
+            isLeft = false;
+        } else if (currentScene.name == "3-SCENE TWO")
+        {
+            isRight = false;
+            isLeft = true;
+        }
+    }
 
     // Update is called once per frame
     void Update()

@@ -17,19 +17,22 @@ public class Dialogue : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        dialogue.SetActive(true);
-        AudioSource.PlayClipAtPoint(talk, transform.position);
+        if (collision.CompareTag("Player"))
+        {
+            dialogue.SetActive(true);
+            AudioSource.PlayClipAtPoint(talk, transform.position);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (deactivateTrigger)
+        if (collision.CompareTag("Player") && deactivateTrigger)
         {
             dialogue.SetActive(false);
             dialogueTrigger.SetActive(false);
             Debug.Log("destroying dialogue");
         }
-        else
+        else if (collision.CompareTag("Player") && !deactivateTrigger)
         {
             dialogue.SetActive(false);
         }

@@ -44,7 +44,7 @@ PlayerSettings:
     duration: 5
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: d8718578c3bb846db9d932c7851a2346,
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 4e1691fe914dc4227bfa5a8cf34bd516,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -278,7 +278,7 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 150
-  resolutionDialogBanner: {fileID: 2800000, guid: d8718578c3bb846db9d932c7851a2346,
+  resolutionDialogBanner: {fileID: 2800000, guid: 4e1691fe914dc4227bfa5a8cf34bd516,
     type: 3}
   m_BuildTargetIcons:
   - m_BuildTarget: 
