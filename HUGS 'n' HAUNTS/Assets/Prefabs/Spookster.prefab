@@ -439,6 +439,8 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
+  player: {fileID: 3343282399173811977}
+  isJump: 0
 --- !u!114 &2075785070
 MonoBehaviour:
   m_ObjectHideFlags: 0

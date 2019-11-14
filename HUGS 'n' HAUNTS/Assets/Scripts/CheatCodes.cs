@@ -14,11 +14,15 @@ public class CheatCodes : MonoBehaviour
             SpooksterHealth.lives = 5;
             SpooksterHealth.lose = false;
             PlayerScoreSpookster.playerscore = 0; // reset Score
+            PauseScreenPressP.isPaused = false;
+            Time.timeScale = 1;
             SceneManager.LoadScene(2); // Go to Level 1
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SpooksterHealth.lose = false;
+            PauseScreenPressP.isPaused = false;
+            Time.timeScale = 1;
             SceneManager.LoadScene(3); // Go to Level 2
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3))

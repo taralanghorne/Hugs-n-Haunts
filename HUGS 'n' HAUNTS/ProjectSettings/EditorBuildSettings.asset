@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: Assets/Scenes/4-LOSE SCREEN.unity
     guid: 9923d73d140283b4dafcf277906a6928
   - enabled: 1
-    path: Assets/Scenes/5-CUTSCENE2.unity
-    guid: 90f183d3ccac44d1c8e34cca35f27f6c
+    path: Assets/Scenes/5_CUTSCENE2.unity
+    guid: 88cca9e41922a4092b0610c6e91a979c
   - enabled: 1
     path: Assets/Scenes/6-WIN SCREEN.unity
     guid: fa1deb22943245b41b2a7831f25a334e
