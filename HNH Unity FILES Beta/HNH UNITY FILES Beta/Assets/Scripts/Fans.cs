@@ -6,10 +6,11 @@ public class Fans : MonoBehaviour
 {
     private bool fanOn = true;
     private bool soundOn = false;
-    public int delay = 3;
+    public float delay = 3.0f;
     public GameObject fanObject;
     public GameObject FanTrigger;
     public GameObject wind;
+    //public GameObject windP;
     private AudioSource sound;
     public AudioClip fan; //when fan is on
 
@@ -47,6 +48,7 @@ public class Fans : MonoBehaviour
                 FanTrigger.SetActive(true);
                 fanObject.GetComponent<Animator>().SetBool("IsOn", true);
                 wind.SetActive(true);
+                //windP.SetActive(true);
                 StartCoroutine(FanTurningOff());
             }
         }
@@ -74,6 +76,7 @@ public class Fans : MonoBehaviour
         Debug.Log("FanTurningOff");
         soundOn = true;
         yield return new WaitForSeconds(delay);
+        //windP.SetActive(false);
         //sound.Stop();
         //FanTrigger.SetActive(false);
         //wind.SetActive(false);

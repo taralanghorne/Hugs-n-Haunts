@@ -41,6 +41,8 @@ public class SpooksterHealth : MonoBehaviour
     public AudioClip hurt;
     public AudioClip respawning;
 
+    public ParticleSystem respawn;
+    public ParticleSystem ouch;
 
     // Use this for initialization
     void Start()
@@ -84,6 +86,7 @@ public class SpooksterHealth : MonoBehaviour
         hasBeenHit = true;
         Invoke("CanHitAgain", 1);
         GetComponent<SpriteRenderer>().color = new Color(1, 0.5f, 0.5f, 0.5f);
+        ouch.Play();
         // For more health, copy the if block for health3, change health3 to whatever yours is,
         // then change the if statement for health3 to else if
 
@@ -181,6 +184,8 @@ public class SpooksterHealth : MonoBehaviour
         //gameObject.transform.position = respawn.transform.position;
         gameObject.transform.position = lastCheck;
         //AddPoints(deathPenalty);
+
+        respawn.Play();
     }
 
     /*public int GetScore()

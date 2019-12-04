@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightUp: {fileID: 7199627670684570641}
   activate: {fileID: 8300000, guid: b0c0c03e88a4c4b1d8ff7b6d4488ff76, type: 3}
+  checkpointDialogue: {fileID: 0}
 --- !u!61 &85675641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,8 +165,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7199627670684570641}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 0.3529412, g: 0.99607843, b: 0.9587146, a: 1}
   m_Intensity: 1.8
   m_Range: 1

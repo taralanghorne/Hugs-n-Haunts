@@ -8,6 +8,7 @@ public class AttackCollider : MonoBehaviour
     public GameObject collectible;
     GameObject pumpkin;
     //public Transform clonePosition;
+    public ParticleSystem smoke;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,7 @@ public class AttackCollider : MonoBehaviour
             //Instantiate(collectible, trig.transform.position, trig.transform.gameObject.transform.rotation);
             pumpkin = (GameObject) Instantiate(collectible, trig.transform.position, trig.transform.rotation);
             pumpkin.transform.localScale = new Vector3(0.138f, 0.138f, 0.27f);
-            //Instantiate(smoke, hit.transform.gameObject.transform.position, hit.transform.gameObject.transform.rotation);
+            Instantiate(smoke, trig.transform.gameObject.transform.position, trig.transform.gameObject.transform.rotation);
             Destroy(trig.transform.gameObject);
             //make it length of animation or audio
         }
