@@ -14728,11 +14728,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2018122294}
     m_Modifications:
+    - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.5132835
+      objectReference: {fileID: 0}
+    - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
+      propertyPath: m_Size.x
+      value: 6.221727
+      objectReference: {fileID: 0}
+    - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.6450988
+      objectReference: {fileID: 0}
+    - target: {fileID: 85675641, guid: 609f5fe1068294c78819e1d55b39dc7a, type: 3}
+      propertyPath: m_Size.y
+      value: 5.47501
+      objectReference: {fileID: 0}
     - target: {fileID: 3128750606016278104, guid: 609f5fe1068294c78819e1d55b39dc7a,
         type: 3}
       propertyPath: checkpointDialogue
       value: 
       objectReference: {fileID: 1698537688}
+    - target: {fileID: 3128750606016278104, guid: 609f5fe1068294c78819e1d55b39dc7a,
+        type: 3}
+      propertyPath: activated
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6696977953352132144, guid: 609f5fe1068294c78819e1d55b39dc7a,
         type: 3}
       propertyPath: m_Name

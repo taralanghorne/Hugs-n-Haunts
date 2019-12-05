@@ -7,7 +7,7 @@ public class HNH_Checkpoints : MonoBehaviour
     // Attach this to your checkpoints. Checkpoints should have a collider set to trigger.
     // If you want to make a sprite animate on activating the checkpoint, let me know! It shouldn't be too hard to program.
     //public GameObject respawn;
-    private bool activated = false;
+    public bool activated = false;
     //public GameObject checkpoint;
     //public Material activeMat;
     public GameObject lightUp;
