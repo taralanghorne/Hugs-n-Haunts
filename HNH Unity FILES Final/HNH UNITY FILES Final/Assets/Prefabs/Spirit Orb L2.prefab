@@ -367,6 +367,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow Pass Through (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 285503398107653413, guid: 825e68a54627d4eeeb8737d379fe6651,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 285503398107653433, guid: 825e68a54627d4eeeb8737d379fe6651,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 825e68a54627d4eeeb8737d379fe6651, type: 3}
 --- !u!4 &4715236730858390154 stripped

@@ -10,10 +10,12 @@ public class SpooksterAttack : MonoBehaviour
     public AudioClip punch; //for health pickups
     public GameObject player;
 
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = player.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,11 +25,13 @@ public class SpooksterAttack : MonoBehaviour
         {
             Debug.Log("Attacking");
             Attack = true;
+            //player.GetComponent<Animator>().SetBool("IsRunning", false);
             //gameObject.GetComponent<Animator>().SetBool("Punch1", true);
             //Attack = true;
             //            player.GetComponent<Animator>().SetBool("IsAttacking", true);
             AttackCommand();
-        }
+
+        } 
     }
 
     void AttackCommand()

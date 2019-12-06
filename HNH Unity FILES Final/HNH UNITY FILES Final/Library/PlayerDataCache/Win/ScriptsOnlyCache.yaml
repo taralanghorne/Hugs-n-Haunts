@@ -60,6 +60,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -2458,5 +2466,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/5_CUTSCENE2.unity
   - Assets/Scenes/6-WIN SCREEN.unity
   - Assets/Scenes/7-CREDITS SCREEN.unity
-  playerPath: /Users/taralanghorne/Dropbox/UF Fall 2/Game Design Production/Hugs
-    'n' Haunts Final Build/HUGS 'n' HAUNTS.exe
+  playerPath: /Users/taralanghorne/Dropbox/UF Fall 2/Game Design Production/HNH Final
+    Build/HUGS 'n' HAUNTS.exe

@@ -876,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
       propertyPath: speed
-      value: 0.008
+      value: 0.013
       objectReference: {fileID: 0}
     - target: {fileID: 7070816712756461868, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
@@ -1783,6 +1783,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow Pass Through
       objectReference: {fileID: 0}
+    - target: {fileID: 285503398107653413, guid: 825e68a54627d4eeeb8737d379fe6651,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 825e68a54627d4eeeb8737d379fe6651, type: 3}
 --- !u!4 &424083160 stripped
@@ -1979,7 +1984,7 @@ PrefabInstance:
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
@@ -3690,7 +3695,7 @@ PrefabInstance:
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
@@ -4240,7 +4245,7 @@ PrefabInstance:
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
         type: 3}
@@ -4584,6 +4589,11 @@ PrefabInstance:
       propertyPath: ColorModule.gradient.maxGradient.key1.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4343908167571847631, guid: bc5cc2d4cf93048e980f1075909a6546,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4343908167571847625, guid: bc5cc2d4cf93048e980f1075909a6546, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bc5cc2d4cf93048e980f1075909a6546, type: 3}
@@ -4810,7 +4820,7 @@ PrefabInstance:
     - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
       propertyPath: speed
-      value: 0.013
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 7070816712756461868, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
@@ -6293,6 +6303,11 @@ PrefabInstance:
     - target: {fileID: 5481622961557300723, guid: 127ecf00f493944aaba10862c110f6a5,
         type: 3}
       propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383121645073181728, guid: 127ecf00f493944aaba10862c110f6a5,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6383121645073181729, guid: 127ecf00f493944aaba10862c110f6a5,
@@ -8360,7 +8375,7 @@ PrefabInstance:
     - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
       propertyPath: speed
-      value: 0.007
+      value: 0.013
       objectReference: {fileID: 0}
     - target: {fileID: 7070816712756461868, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
@@ -10450,7 +10465,7 @@ PrefabInstance:
     - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
       propertyPath: speed
-      value: 0.008
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 7070816712910451291, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
@@ -15825,6 +15840,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.24724917
       objectReference: {fileID: 0}
+    - target: {fileID: 6383121645073181728, guid: 127ecf00f493944aaba10862c110f6a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 127ecf00f493944aaba10862c110f6a5, type: 3}
 --- !u!1 &5644156220265548716
@@ -16413,6 +16433,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 1983276165737064670, guid: 2b3fb4d0bfca8471a82526b6df412574,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b3fb4d0bfca8471a82526b6df412574, type: 3}
 --- !u!1001 &6689911363678510045
@@ -16653,6 +16678,11 @@ PrefabInstance:
       propertyPath: livesText
       value: 
       objectReference: {fileID: 1470763026}
+    - target: {fileID: 730343838774760644, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2210676591799643197, guid: 12d661dd478244e16ba78055cf46285c,
         type: 3}
       propertyPath: m_IsActive
@@ -16744,6 +16774,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 70cc79c3ac760482fa3396fe3991fec2,
         type: 3}
+    - target: {fileID: 3633164208029004150, guid: 12d661dd478244e16ba78055cf46285c,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3795621691504492224, guid: 12d661dd478244e16ba78055cf46285c,
         type: 3}
       propertyPath: m_SortingLayer

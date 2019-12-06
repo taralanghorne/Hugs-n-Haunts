@@ -197,6 +197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1364823940514966222, guid: 108bd21c5ab864c34be8341f45f17be5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1364823940514966223, guid: 108bd21c5ab864c34be8341f45f17be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3057,11 +3062,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
-        type: 3}
-      propertyPath: speed
-      value: 0.005
-      objectReference: {fileID: 0}
     - target: {fileID: 7070816712910451291, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
       propertyPath: m_Name
@@ -4533,6 +4533,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Particle Trail Arrow (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364823940514966222, guid: 108bd21c5ab864c34be8341f45f17be5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1364823940514966223, guid: 108bd21c5ab864c34be8341f45f17be5,
         type: 3}
@@ -6682,6 +6687,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1364823940514966222, guid: 108bd21c5ab864c34be8341f45f17be5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1364823940514966223, guid: 108bd21c5ab864c34be8341f45f17be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8459,6 +8469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Particle Trail Arrow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364823940514966222, guid: 108bd21c5ab864c34be8341f45f17be5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1364823940514966223, guid: 108bd21c5ab864c34be8341f45f17be5,
         type: 3}
@@ -12586,6 +12601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow
       objectReference: {fileID: 0}
+    - target: {fileID: 1364823940514966222, guid: 108bd21c5ab864c34be8341f45f17be5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1364823940514966223, guid: 108bd21c5ab864c34be8341f45f17be5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12853,6 +12873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983276165737064670, guid: 2b3fb4d0bfca8471a82526b6df412574,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b3fb4d0bfca8471a82526b6df412574, type: 3}
@@ -14514,6 +14539,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle Trail Arrow Pass Through
       objectReference: {fileID: 0}
+    - target: {fileID: 285503398107653413, guid: 825e68a54627d4eeeb8737d379fe6651,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 825e68a54627d4eeeb8737d379fe6651, type: 3}
 --- !u!1001 &6481252783647475281
@@ -15123,11 +15153,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7070816712756461857, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
-        type: 3}
-      propertyPath: speed
-      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 7070816712756461868, guid: 1be62efc2879c4274bccd52ecaaaeeb1,
         type: 3}
