@@ -60,12 +60,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -890,7 +884,7 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: b387b52b5ed4ad5879dd720e08c29c68
+      Hash: 20b9ff2356e4022bc5f5f3ccd3aa0308
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpiritOrbs5
@@ -944,7 +938,7 @@ ScriptsOnlyBuild:
     className: Player_Score
   - hash:
       serializedVersion: 2
-      Hash: 8381cab0eb8ab69072645891161c3eba
+      Hash: 19ed7fbc20fb8180c4c592f6ac1533df
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EndLevel1
@@ -1436,7 +1430,7 @@ ScriptsOnlyBuild:
     className: ScrollingScript
   - hash:
       serializedVersion: 2
-      Hash: 3c1912ef8d10e8b82b2665fb3ee7a6db
+      Hash: 01c8731f2d4fa43ec68f056fe8e68970
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialogueDeleteByPickup
@@ -1460,7 +1454,7 @@ ScriptsOnlyBuild:
     className: Benchmark01
   - hash:
       serializedVersion: 2
-      Hash: 00ad2f0d58cfa2f9f5d43cb11298ee65
+      Hash: 4b2eea769c5c8ca5565873139838a3fa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpiritOrbs
@@ -2282,7 +2276,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: f0f674915d2178b3db28b7845a975bc1
+      Hash: d9096a9cd00998c9bca7ed79bce8bc6b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Dialogue
@@ -2318,7 +2312,7 @@ ScriptsOnlyBuild:
     className: ChangeMaterial_2
   - hash:
       serializedVersion: 2
-      Hash: 020ff933bd40b1ac6e405b745c56d9a0
+      Hash: be589fd8a7314b023517b44dd3ae30e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DoorThru

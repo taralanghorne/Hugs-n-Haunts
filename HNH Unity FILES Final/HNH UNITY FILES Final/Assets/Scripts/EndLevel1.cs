@@ -26,6 +26,7 @@ public class EndLevel1 : MonoBehaviour
     public GameObject endTrigger;
     public GameObject endArrow;
     public GameObject endDialogue;
+    public GameObject endSpeechBubble;
 
     void Start()
     {
@@ -96,5 +97,6 @@ public class EndLevel1 : MonoBehaviour
         endTrigger.SetActive(true);
         AudioSource.PlayClipAtPoint(huh, transform.position);
         endDialogue.SetActive(true);
+        endSpeechBubble.SetActive(true);
     }
 }

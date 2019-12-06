@@ -461,10 +461,12 @@ MonoBehaviour:
   orb2: {fileID: 0}
   orb1: {fileID: 0}
   gotOrbsText: {fileID: 0}
+  gotOrbsSpeechBubble: {fileID: 0}
   dialogue: {fileID: 8300000, guid: 08e310c6c236f4714bd88f19f124411b, type: 3}
   wall: {fileID: 0}
   door: {fileID: 0}
   doorText: {fileID: 0}
+  doorSpeechBubble: {fileID: 0}
   doorTextTrigger: {fileID: 0}
   passThrough: {fileID: 0}
 --- !u!114 &2075785073
@@ -1200,7 +1202,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 600
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -5384,8 +5386,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -116037987
-  m_SortingLayer: 2
+  m_SortingLayerID: -1321631595
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -6035,7 +6037,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -10219,8 +10221,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -116037987
-  m_SortingLayer: 2
+  m_SortingLayerID: -1321631595
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -10870,7 +10872,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 400
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -15054,8 +15056,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -116037987
-  m_SortingLayer: 2
+  m_SortingLayerID: -1321631595
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0

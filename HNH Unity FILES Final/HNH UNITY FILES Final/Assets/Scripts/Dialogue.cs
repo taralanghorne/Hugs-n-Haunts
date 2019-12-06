@@ -5,6 +5,7 @@ using UnityEngine;
 public class Dialogue : MonoBehaviour
 {
     public GameObject dialogue;
+    public GameObject speechBubble;
     public GameObject dialogueTrigger;
     public AudioClip talk;
     public bool deactivateTrigger = true;
@@ -19,6 +20,7 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            speechBubble.SetActive(true);
             dialogue.SetActive(true);
             AudioSource.PlayClipAtPoint(talk, transform.position);
         }
@@ -28,12 +30,14 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.CompareTag("Player") && deactivateTrigger)
         {
+            speechBubble.SetActive(false);
             dialogue.SetActive(false);
             dialogueTrigger.SetActive(false);
             Debug.Log("destroying dialogue");
         }
         else if (collision.CompareTag("Player") && !deactivateTrigger)
         {
+            speechBubble.SetActive(false);
             dialogue.SetActive(false);
         }
     }

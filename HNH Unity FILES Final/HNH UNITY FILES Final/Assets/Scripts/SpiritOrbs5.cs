@@ -11,10 +11,12 @@ public class SpiritOrbs5 : MonoBehaviour
     public GameObject orb1;
 
     public GameObject gotOrbsText;
+    public GameObject gotOrbsSpeechBubble;
     public AudioClip dialogue;
     public GameObject wall;
     public GameObject door;
     public GameObject doorText;
+    public GameObject doorSpeechBubble;
     public GameObject doorTextTrigger;
     public GameObject passThrough;
 
@@ -66,7 +68,10 @@ public class SpiritOrbs5 : MonoBehaviour
     public void GotOrbs()
     {
         doorText.SetActive(false);
-        doorTextTrigger.SetActive(false); gotOrbsText.SetActive(true);
+        doorSpeechBubble.SetActive(false);
+        doorTextTrigger.SetActive(false);
+        gotOrbsText.SetActive(true);
+        gotOrbsSpeechBubble.SetActive(true);
         AudioSource.PlayClipAtPoint(dialogue, transform.position);
         passThrough.SetActive(true);
         wall.GetComponent<BoxCollider2D>().enabled = false;
